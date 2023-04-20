@@ -27,7 +27,7 @@ const inter = Inter({
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
-  /* const scroller = useSmoothScroll(); */
+  const scroller = useSmoothScroll();
 
   /* useEffect(() => {
     const onRouteStart = () => {
